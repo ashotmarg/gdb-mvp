@@ -1,0 +1,8 @@
+Aug-18 12:51:45.100 [main] DEBUG nextflow.cli.Launcher - $> nextflow run ./main.nf -c ./nextflow.config -c ../../../config/nextflow.config --inputCsv inputFiles.csv
+Aug-18 12:51:45.156 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 22.04.0
+Aug-18 12:51:45.189 [main] DEBUG nextflow.cli.Launcher - Operation aborted
+nextflow.exception.AbortOperationException: Cannot find script file: ./main.nf
+	at nextflow.cli.CmdRun.getScriptFile(CmdRun.groovy:391)
+	at nextflow.cli.CmdRun.run(CmdRun.groovy:284)
+	at nextflow.cli.Launcher.run(Launcher.groovy:480)
+	at nextflow.cli.Launcher.main(Launcher.groovy:639)
